@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "author" content = "Yuri Park">
+    <meta name = "viewport" content = "width=device-width, intitial-scale=0.1">
+
+    <!-- <meta http-equiv="refresh" content = "10"> -->
+    <link rel = "stylesheet" href = "style.css">
+
+    <title> Contact Yuri Park</title>
+</head>
+
+    <header>
+        <div>
+            <div id="name-container">
+                <div id="name-top">About</div>
+              </div>
+
+            <table id = "nonnav">
+                <tr>
+                    <th>
+                        <a href="index.html">Selected Works</a>
+                    </th>
+
+                    <th>
+                        <a href="about.html">About</a>
+                    </th>
+
+                    <th>
+                        <a href="contact.html">Contact</a>
+                    </th>
+
+                </tr>
+            </table>
+        </div>
+
+        <br>
+        <br>
+        <br>
+    
+        <h1>Yuri Park</h1>
+        <h3>Computation and Design: Digital Media</h3>
+    </header>
+
+    <div class = "whole-wrapper">
+        <h3>Want to Connect?</h3>
+
+        <div class="contact-wrapper">
+            <form class = "form-horizontal">
+                <div>
+                    <label for = "name">Your Preferred Name </label>
+                    <input type = "text" class="form-control" id = "name" name = "name" placeholder="Name" required>
+                </div>
+            
+                <br>
+        
+                <div>
+                    <label for = "email">Your Email Address </label>
+                    <input type = "email" class="form-control" id = "email" name = "email" placeholder="Email" required>
+                </div>
+        
+                <br>
+        
+                <div>
+                    <label for = "message">What is your Question? </label>
+                    <label for = "desCheck">Designer</label>
+                    <input type = "checkbox" name = "remind">
+                    <label for = "dirCheck">Director</label>
+                    <input type = "checkbox" name = "remind">
+                    <textarea class="form-control"  id = "wider" rows="10" placeholder="Message" name="message" required></textarea>
+        
+                </div>
+        
+                <br>
+            </form>
+
+            <form class = "form-horizontal">
+                <!-- date -->
+                <div class="form-group">
+                    <label for = "mdate">Meeting Preferance: </label>
+                    <input type = "date" class="form-control" id = "mdate" name = "mdate">
+                </div>
+        
+                <br>
+        
+                <!-- time -->
+        
+                <div>
+                    <label for = "time">Meeting Time: </label> 
+                    <select class="form-control"  id = "time" name = "time" >
+                        <option value = "DNE"> Time Does not Exist </option>
+                        <option value = "lunch0"> 10:30AM-11:00AM BJT </option>
+                        <option value = "lunch1"> 11:30AM-12:00PM BJT </option>
+                        <option value = "lunch2"> 12:00PM-12:30PM BJT </option>
+                        <option value = "lunch3"> 12:30PM-01:00PM BJT </option>
+                        <option value = "lunch4"> 01:00PM-01:30PM BJT </option>
+                        <option value = "lunch5"> 01:30PM-02:00PM BJT </option>
+                        <option value = "lunch6"> 02:00PM-02:30PM BJT </option>
+                    </select>
+                </div>
+        
+                <br>
+                <br>
+
+            </form>
+
+        </div>  
+
+        <!-- Figure out the button code -->
+        <div class="button-container">
+            <button type="submit" class="send-button">Click to Submit</button>
+        </div>
+    </div>
+        
+    <br>
+    <br>
+
+    <hr>
+
+    <footer>
+        <div class = "footer">
+            <!-- <br> -->
+            <h1 class = "footer-name">Yuri Park</h1>
+            <p class = "footer-copy">© 2023 by Yuri Park</p>
+            <!-- <br> -->
+        </div>
+    </footer>
+
+    <script src = "index.js"></script>
+</body>
